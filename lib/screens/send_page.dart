@@ -11,7 +11,7 @@ class SendPage extends StatefulWidget {
 class _SendPageState extends State<SendPage> {
   bool isAuthenticated  = false;
   bool isLoading = false;
- bool _authenticate() async {
+  _authenticate() async {
     try {
       var localAuth = LocalAuthentication();
       bool didAuthenticate = await localAuth.authenticateWithBiometrics(
@@ -21,8 +21,7 @@ class _SendPageState extends State<SendPage> {
             return true;
           }
           return false;
-    } 
-    catch (e) {
+    } catch (e) {
       print(e);
       return false;
     }

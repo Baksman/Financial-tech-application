@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+<img src = "https://github.com/Baksman/Financial-tech-application/blob/master/android/assets/20200309_102917.gif" />
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
